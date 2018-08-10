@@ -16,6 +16,9 @@ $(document).ready(function(){
     console.log("click")
     $(".stateNameAlaska").fadeOut(0);
     $(".revealJuneau").fadeIn(0);
+
+    $(".stateNameAlaska").delay(5000).fadeIn(0);
+    $(".revealJuneau").delay(5000).fadeOut(0);
   });
 
   $(".colorado").click(function() {
