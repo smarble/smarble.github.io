@@ -1,7 +1,4 @@
-/*javascript class: Week 13 Assignment*/
-/*
-
-*/
+/*STATES GAME REDO*/
 
 html {
 box-sizing: border-box;
@@ -14,6 +11,15 @@ box-sizing: inherit;
 * {
 margin: 0;
 padding: 0;
+}
+
+body {
+  margin-left: 25%;
+  margin-right: 25%;
+}
+.map {
+  width: 100%;
+  background-color: black;
 }
 
 .title{
