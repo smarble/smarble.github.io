@@ -1,35 +1,43 @@
 /*STATES GAME REDO*/
 
 html {
-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 *, *:before, *:after {
-box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 * {
-margin: 0;
-padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-  margin-left: 25%;
-  margin-right: 25%;
-}
-.map {
-  width: 100%;
-  background-color: black;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
-.title{
-  color: black;
-  margin-bottom: -30%;
-  font-size: 7em;
+.map {
+  width: 75%;
+  background: linear-gradient(to right, red, white, blue);
+}
+.titleMurakami {
+  margin-top: 4%;
+  text-align: center;
+  font-size: 2em;
+}
+.titleClass {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 4%;
 }
 
 .instructions{
   text-align: center;
+  font-size: 1.7em;
+  margin: 4% 0%;
+  color: black;
 }
 
 h2{
@@ -57,17 +65,10 @@ img {
   width: 25%;
 }
 
-.instructions{
-  font-size: 3em;
-  padding-top: 5%;
-  padding-bottom: 5%;
-  color: black;
-}
-
 .revealedCapital{
   font-size: 2em;
   padding-top: 2%;
   padding-bottom: 2%;
-  color: magenta;
+  color: red;
   text-align: center;
 }
