@@ -1,7 +1,7 @@
 // STATES GAME REDO
 // WRAP EVERYTHING IN DOCUMENT READY FUNCTION
 $(document).ready(function(){
-  console.log("javascript loaded successfully")
+  console.log("javascript loaded successfully");
   $(".revealedCapital").hide();
 
   $(".california").click(function() {
